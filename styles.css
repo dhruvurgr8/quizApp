@@ -1,0 +1,67 @@
+.col > div {
+  color: grey;
+
+  padding: 1px;
+}
+.col > div > span {
+  margin-left: 10px;
+}
+.head {
+  margin-left: 110px;
+  margin-top: 70px;
+}
+.field {
+  margin-left: 110px !important;
+  margin-top: 70px !important;
+}
+.question h2 {
+  background-color: #fcc822;
+  padding: 50px;
+  color: white;
+}
+.question > ul > li {
+  display: inline-block;
+  padding: 50px;
+}
+.options {
+  background-color: #ccc;
+}
+.option-btn {
+  background-color: #fcc822;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+.btngroup {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items button {
+  background-color: #fcc822;
+  text-align: center;
+  padding: 20px;
+}
+
+.hide-modal {
+  display: none;
+}
+.results > span {
+  background-color: #fcc822;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  left: 40%;
+}
+
+.score {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .results {
+    margin: 0px;
+  }
+}
